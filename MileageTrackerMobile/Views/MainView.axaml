@@ -15,62 +15,54 @@
     
     <ScrollViewer VerticalAlignment="Stretch" 
                   Background="{DynamicResource PrimaryBackground}">
-        
         <Border CornerRadius="40" 
                 Margin="15" 
                 Background="{DynamicResource GreyGradientBrush}"
                 BorderBrush="{DynamicResource GreyBorderGradientBrush}"
                 BorderThickness="2.5"
                 ClipToBounds="True">
-            
             <Border.Effect>
                 <DropShadowEffect BlurRadius="40" 
                                   Color="#30000000" 
                                   OffsetX="0" 
                                   OffsetY="10"/>
             </Border.Effect>
-            
             <Grid>
                 <Border CornerRadius="39"
                        Margin="1"
                        BorderBrush="{DynamicResource InnerGlowBrush}"
                        BorderThickness="1"
                        IsHitTestVisible="False"/>
-                
                 <StackPanel Margin="15" 
                            Orientation="Vertical" 
                            VerticalAlignment="Stretch" 
                            HorizontalAlignment="Stretch">
-                    
                     <DockPanel HorizontalAlignment="Stretch" 
-                              VerticalAlignment="Stretch" 
-                              IsVisible="{Binding LoginScreen}">
+                              VerticalAlignment="Stretch">
+                        <TextBlock DockPanel.Dock="Top" HorizontalAlignment="Center" 
+                                   FontFamily="{DynamicResource AkkoProBold}" 
+                                   FontSize="35">
+                            Mileage Tracker
+                        </TextBlock>
+                        <Border DockPanel.Dock="Top" VerticalAlignment="Top" Margin="0 0 0 0" Background="#80F8F8F8" Height="2" HorizontalAlignment="Stretch"></Border>
                         
                         <StackPanel DockPanel.Dock="Top" 
-                                   VerticalAlignment="Top" 
-                                   HorizontalAlignment="Stretch">
+                                    VerticalAlignment="Top" 
+                                    HorizontalAlignment="Stretch"
+                                    IsVisible="{Binding HomepageVisible}">
                             
-                            <TextBlock HorizontalAlignment="Center" 
-                                      FontFamily="{DynamicResource AkkoProBold}" 
-                                      FontSize="35">
-                                Mileage Tracker
-                            </TextBlock>
+                            <TextBox VerticalAlignment="Top" HorizontalAlignment="Center" Text="{Binding LoginInputstr}"></TextBox>
+                            <Button VerticalAlignment="Top" HorizontalAlignment="Center" Click="Login_OnCLick">Log In</Button>
                             
                         </StackPanel>
-                        
                     </DockPanel>
-                    
                 </StackPanel>
-                
                 <Border Background="{DynamicResource GlassReflectionBrush}"
                        VerticalAlignment="Top"
                        Height="120"
                        Opacity="0.6"
                        IsHitTestVisible="False"/>
             </Grid>
-            
         </Border>
-        
     </ScrollViewer>
-    
 </UserControl>

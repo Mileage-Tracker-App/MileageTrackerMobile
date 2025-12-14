@@ -11,24 +11,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6ff2ad-c8ab-40f7-bae3-1e7b47a8080b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/APIController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Models/Log.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Models/LogItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Models/Session.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/avalonia.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Directory.Packages.props" beforeDir="false" afterPath="$PROJECT_DIR$/Directory.Packages.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Android/MileageTrackerMobile.Android.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile.Android/MileageTrackerMobile.Android.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Desktop/MileageTrackerMobile.Desktop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile.Desktop/MileageTrackerMobile.Desktop.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.iOS/MileageTrackerMobile.iOS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile.iOS/MileageTrackerMobile.iOS.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/App.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/AppDefaultStyles.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/AppDefaultStyles.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/MileageTrackerMobile.Browser.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/runtimeconfig.template.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/wwwroot/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/wwwroot/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/wwwroot/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/MileageTrackerMobile.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/MileageTrackerMobile.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/ViewModels/MainViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/ViewModels/MainViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1" />
+    <option name="cachedIndexableFilesCount" value="15" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -40,12 +55,15 @@
     &quot;assignee&quot;: &quot;ariplayz&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ariplayz/MileageTrackerMobile.git&quot;,
-    &quot;accountId&quot;: &quot;7c0dcdd6-79f0-4cd5-8ea9-0409b97e641a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ariplayz/MileageTrackerMobile.git",
+    "accountId": "7c0dcdd6-79f0-4cd5-8ea9-0409b97e641a"
   }
-}</component>
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/APIController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
       <facet id="MileageTrackerMobile.Android/invalid/Android Facet - MileageTrackerMobile.Android" />
@@ -68,6 +86,7 @@
   "keyToString": {
     ".NET Project.MileageTrackerMobile.Desktop.executor": "Run",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Android.MileageTrackerMobile.Android.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -82,12 +101,12 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "settings.sync",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.MileageTrackerMobile.Desktop">
+  <component name="RunManager" selected="Android.MileageTrackerMobile.Android">
     <configuration name="MileageTrackerMobile.Desktop" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -151,6 +170,9 @@
       <workItem from="1762882724080" duration="33000" />
       <workItem from="1764984864861" duration="2780000" />
       <workItem from="1764988679570" duration="2783000" />
+      <workItem from="1765139957476" duration="273000" />
+      <workItem from="1765140272381" duration="5000" />
+      <workItem from="1765675505253" duration="8767000" />
     </task>
     <servers />
   </component>

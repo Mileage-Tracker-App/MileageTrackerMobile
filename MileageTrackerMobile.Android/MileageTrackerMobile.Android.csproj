@@ -9,7 +9,7 @@
         <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
         <AndroidPackageFormat>apk</AndroidPackageFormat>
         <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
-        <AndroidSdkDirectory>F:\Android\Sdk</AndroidSdkDirectory>
+        <AndroidSdkDirectory>C:\Users\arigr\AppData\Local\Android\Sdk</AndroidSdkDirectory>
         <AcceptAndroidSDKLicenses>true</AcceptAndroidSDKLicenses>
     </PropertyGroup>
 
