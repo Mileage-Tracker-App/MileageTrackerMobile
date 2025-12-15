@@ -8,12 +8,12 @@ public partial class MainViewModel : ViewModelBase
 
     [ObservableProperty] public int sessionID;
 
-    [ObservableProperty] public static string loginInputstr;
-    public static int LoginInput = int.Parse(loginInputstr);
+    [ObservableProperty] public string loginInput;
 
     [ObservableProperty] public bool homepageVisible = true;
+    [ObservableProperty] public bool sessionNotExistVisible = false;
     
-    [ObservableProperty] public static APIController.ApiController _apiController = new APIController.ApiController();
+    [ObservableProperty] public APIController.ApiController _apiController = new APIController.ApiController();
     
     
 

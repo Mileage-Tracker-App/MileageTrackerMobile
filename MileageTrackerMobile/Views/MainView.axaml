@@ -51,10 +51,49 @@
                                     HorizontalAlignment="Stretch"
                                     IsVisible="{Binding HomepageVisible}">
                             
-                            <TextBox VerticalAlignment="Top" HorizontalAlignment="Center" Text="{Binding LoginInputstr}"></TextBox>
-                            <Button VerticalAlignment="Top" HorizontalAlignment="Center" Click="Login_OnCLick">Log In</Button>
+                            <TextBox VerticalAlignment="Top" HorizontalAlignment="Center" Text="{Binding LoginInput}"></TextBox>
+                            <Button VerticalAlignment="Top" HorizontalAlignment="Center" Click="Login_OnClick">Log In</Button>
                             
                         </StackPanel>
+                        
+                        <Border CornerRadius="40" 
+                                Margin="15"
+                                DockPanel.Dock="Top"
+                                Background="{DynamicResource GreyGradientBrush}"
+                                BorderBrush="{DynamicResource GreyBorderGradientBrush}"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Center"
+                                BorderThickness="2.5"
+                                ClipToBounds="True"
+                                IsVisible="{Binding SessionNotExistVisible}">
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="40"
+                                                  Color="#30000000" 
+                                                  OffsetX="0" 
+                                                  OffsetY="10"/>
+                            </Border.Effect>
+                            <Grid>
+                                <Border CornerRadius="39"
+                                                Margin="1"
+                                                BorderBrush="{DynamicResource InnerGlowBrush}"
+                                                BorderThickness="1"
+                                                IsHitTestVisible="False"/>
+                                <StackPanel Margin="15" 
+                                            Orientation="Vertical" 
+                                            VerticalAlignment="Stretch" 
+                                            HorizontalAlignment="Stretch">
+                                    
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Classes="bold" >Session ID does not exist!</TextBlock>
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Create a new session to log in.</TextBlock>
+                                    
+                                </StackPanel>
+                                <Border Background="{DynamicResource GlassReflectionBrush}"
+                                        VerticalAlignment="Top"
+                                        Opacity="0.6"
+                                        IsHitTestVisible="False"/>
+                            </Grid>
+                        </Border>
+                        
                     </DockPanel>
                 </StackPanel>
                 <Border Background="{DynamicResource GlassReflectionBrush}"

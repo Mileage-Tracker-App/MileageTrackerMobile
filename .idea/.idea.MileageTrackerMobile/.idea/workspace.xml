@@ -11,25 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6ff2ad-c8ab-40f7-bae3-1e7b47a8080b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/APIController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Models/Log.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Models/LogItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Models/Session.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/avalonia.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/deploymentTargetSelector.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Android/MileageTrackerMobile.Android.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile.Android/MileageTrackerMobile.Android.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/MileageTrackerMobile.Browser.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/runtimeconfig.template.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/wwwroot/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/wwwroot/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.Browser/wwwroot/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/MileageTrackerMobile.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/MileageTrackerMobile.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/Models/Session.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/Models/Session.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/ViewModels/MainViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/ViewModels/MainViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml.cs" afterDir="false" />
@@ -43,7 +26,7 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="15" />
+    <option name="cachedIndexableFilesCount" value="16" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -55,12 +38,12 @@
     &quot;assignee&quot;: &quot;ariplayz&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ariplayz/MileageTrackerMobile.git",
-    "accountId": "7c0dcdd6-79f0-4cd5-8ea9-0409b97e641a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ariplayz/MileageTrackerMobile.git&quot;,
+    &quot;accountId&quot;: &quot;7c0dcdd6-79f0-4cd5-8ea9-0409b97e641a&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/APIController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -82,31 +65,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.MileageTrackerMobile.Desktop.executor": "Run",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Android.MileageTrackerMobile.Android.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.MileageTrackerMobile.Desktop.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Android.MileageTrackerMobile.Android.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Android.MileageTrackerMobile.Android">
+}</component>
+  <component name="RunManager" selected=".NET Project.MileageTrackerMobile.Desktop">
     <configuration name="MileageTrackerMobile.Desktop" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -124,22 +107,6 @@
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
       <option name="PROJECT_TFM" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="MileageTrackerMobile.Browser" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MileageTrackerMobile.Browser/MileageTrackerMobile.Browser.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net9.0-browser" />
-      <option name="LAUNCH_PROFILE_NAME" value="MileageTrackerMobile.Browser" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
-      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
-      <option name="SEND_DEBUG_REQUEST" value="1" />
-      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <option name="AUTO_ATTACH_CHILDREN" value="0" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -172,8 +139,20 @@
       <workItem from="1764988679570" duration="2783000" />
       <workItem from="1765139957476" duration="273000" />
       <workItem from="1765140272381" duration="5000" />
-      <workItem from="1765675505253" duration="8767000" />
+      <workItem from="1765675505253" duration="9266000" />
+      <workItem from="1765763938064" duration="3401000" />
+      <workItem from="1765767374021" duration="44000" />
+      <workItem from="1765767431906" duration="628000" />
     </task>
+    <task id="LOCAL-00001" summary="Remove browser platform support and add session-based models to core project">
+      <option name="closed" value="true" />
+      <created>1765701667969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765701667969</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +162,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Remove browser platform support and add session-based models to core project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove browser platform support and add session-based models to core project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
