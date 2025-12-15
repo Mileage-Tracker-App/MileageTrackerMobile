@@ -12,6 +12,7 @@ public partial class MainViewModel : ViewModelBase
 
     [ObservableProperty] public bool homepageVisible = true;
     [ObservableProperty] public bool sessionNotExistVisible = false;
+    [ObservableProperty] public bool sessionIdDisplayVisible = false;
     
     [ObservableProperty] public APIController.ApiController _apiController = new APIController.ApiController();
     

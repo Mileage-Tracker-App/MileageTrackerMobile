@@ -1,9 +1,10 @@
 
 using System;
+using System.Threading;
 using System.Threading.Tasks;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
-using MileageTrackerMobile.APIController;
+
 using MileageTrackerMobile.Models;
 using MileageTrackerMobile.ViewModels;
 
@@ -14,6 +15,26 @@ namespace MileageTrackerMobile.Views
         public MainView()
         {
             InitializeComponent();
+        }
+
+        public async void SignUp_OnClick(object sender, RoutedEventArgs e)
+        {
+            var vm = DataContext as MainViewModel;
+            if (vm == null) return;
+            
+            var result = await vm._apiController.CreateSessionAsync<TSession>();
+            if (result.Success && result.Value != null)
+            {
+                
+                vm.sessionID = result.Value.Id;
+                vm.SessionIdDisplayVisible = true;
+                await Task.Delay(2000);
+                vm.SessionIdDisplayVisible = false;
+                
+                vm.HomepageVisible = false;
+
+            }
+            
         }
 
         public async void Login_OnClick(object sender, RoutedEventArgs e)
@@ -36,6 +57,7 @@ namespace MileageTrackerMobile.Views
                 if (result.Success && result.Value != null)
                 {
                     vm.sessionID = result.Value.Id;
+                    vm.HomepageVisible = false;
                 }
                 else
                 {
@@ -51,6 +73,7 @@ namespace MileageTrackerMobile.Views
                 if (result.Success && result.Value != null)
                 {
                     vm.sessionID = result.Value.Id;
+                    vm.HomepageVisible = false;
                 }
                 else
                 {
@@ -59,7 +82,6 @@ namespace MileageTrackerMobile.Views
                     vm.SessionNotExistVisible = false;
                 }
             }
-            Console.WriteLine("Session ID: " + vm.sessionID);
         }
     }
 }

@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c6ff2ad-c8ab-40f7-bae3-1e7b47a8080b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/Models/Session.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/Models/Session.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/ViewModels/MainViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/ViewModels/MainViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml.cs" afterDir="false" />
@@ -142,7 +141,7 @@
       <workItem from="1765675505253" duration="9266000" />
       <workItem from="1765763938064" duration="3401000" />
       <workItem from="1765767374021" duration="44000" />
-      <workItem from="1765767431906" duration="628000" />
+      <workItem from="1765767431906" duration="4945000" />
     </task>
     <task id="LOCAL-00001" summary="Remove browser platform support and add session-based models to core project">
       <option name="closed" value="true" />
@@ -152,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765701667969</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implement session-based login and error handling in MainView">
+      <option name="closed" value="true" />
+      <created>1765768067687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765768067687</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +170,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Remove browser platform support and add session-based models to core project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove browser platform support and add session-based models to core project" />
+    <MESSAGE value="Implement session-based login and error handling in MainView" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement session-based login and error handling in MainView" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
