@@ -38,7 +38,7 @@ namespace MileageTrackerMobile.Views
             {
 
                 vm.SessionID = result.Value.Id;
-                vm.sessionID = result.Value.Id
+                vm.sessionID = result.Value.Id;
                 vm.SessionIdDisplayVisible = true;
 
             }
