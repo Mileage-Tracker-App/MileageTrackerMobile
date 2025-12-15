@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c6ff2ad-c8ab-40f7-bae3-1e7b47a8080b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,8 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/APIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/arigr/RiderProjects/MileageTrackerMobile/MileageTrackerMobile/Views/MainView.axaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/arigr/RiderProjects/MileageTrackerMobile/MileageTrackerMobile/Views/MainView.axaml.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -84,7 +85,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "vcs.Git",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -142,7 +143,7 @@
       <workItem from="1765675505253" duration="9266000" />
       <workItem from="1765763938064" duration="3401000" />
       <workItem from="1765767374021" duration="44000" />
-      <workItem from="1765767431906" duration="9146000" />
+      <workItem from="1765767431906" duration="11804000" />
     </task>
     <task id="LOCAL-00001" summary="Remove browser platform support and add session-based models to core project">
       <option name="closed" value="true" />
@@ -184,7 +185,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765774973889</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Improve session handling logic in MainView and update project configuration">
+      <option name="closed" value="true" />
+      <created>1765776845002</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765776845002</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Improve session handling logic in MainView and update project configuration">
+      <option name="closed" value="true" />
+      <created>1765776873347</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765776873347</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix the broken thingies">
+      <option name="closed" value="true" />
+      <created>1765776886814</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765776886814</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +226,9 @@
     <MESSAGE value="Update UI components and improve session handling logic&#10;&#10;- Added &quot;Continue&quot; button functionality to navigate to the logs page.&#10;- Enhanced registration flow to display the session ID and log page seamlessly.&#10;- Updated MainWindow design properties (dimension, title, icon).&#10;- Introduced a new asset (MileageTracker.ico) to replace the default icon.&#10;- Made changes to support a more polished and dynamic user experience." />
     <MESSAGE value="Improve MainView with session handling, continue button, and refined UI adjustments" />
     <MESSAGE value="Add &quot;Continue&quot; button to MainView, update UI behaviors, and replace app icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;Continue&quot; button to MainView, update UI behaviors, and replace app icon" />
+    <MESSAGE value="Improve session handling logic in MainView and update project configuration" />
+    <MESSAGE value="fix the broken thingies" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the broken thingies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
