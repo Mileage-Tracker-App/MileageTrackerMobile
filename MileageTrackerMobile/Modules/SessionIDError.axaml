@@ -1,0 +1,46 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:MileageTrackerMobile.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="MileageTrackerMobile.Modules.SessionIDError"
+             x:DataType="viewModels:MainViewModel">
+    <Border CornerRadius="40" 
+                                Margin="15"
+                                DockPanel.Dock="Top"
+                                Background="{DynamicResource GreyGradientBrush}"
+                                BorderBrush="{DynamicResource GreyBorderGradientBrush}"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Center"
+                                BorderThickness="2.5"
+                                ClipToBounds="True"
+                                IsVisible="{Binding SessionNotExistVisible}">
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="40"
+                                                  Color="#30000000" 
+                                                  OffsetX="0" 
+                                                  OffsetY="10"/>
+                            </Border.Effect>
+                            <Grid>
+                                <Border CornerRadius="39"
+                                                Margin="1"
+                                                BorderBrush="{DynamicResource InnerGlowBrush}"
+                                                BorderThickness="1"
+                                                IsHitTestVisible="False"/>
+                                <StackPanel Margin="15" 
+                                            Orientation="Vertical" 
+                                            VerticalAlignment="Stretch" 
+                                            HorizontalAlignment="Stretch">
+                                    
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Classes="bold" >User ID does not exist!</TextBlock>
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Try a different one or create a new one.</TextBlock>
+                                    
+                                </StackPanel>
+                                <Border Background="{DynamicResource GlassReflectionBrush}"
+                                        VerticalAlignment="Top"
+                                        Opacity="0.6"
+                                        IsHitTestVisible="False"/>
+                            </Grid>
+                        </Border>
+</UserControl>

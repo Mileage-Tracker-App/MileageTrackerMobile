@@ -5,6 +5,11 @@
       <map>
         <entry key="MileageTrackerMobile/App.axaml" value="MileageTrackerMobile.Desktop/MileageTrackerMobile.Desktop.csproj" />
         <entry key="MileageTrackerMobile/AppDefaultStyles.axaml" value="MileageTrackerMobile.Desktop/MileageTrackerMobile.Desktop.csproj" />
+        <entry key="MileageTrackerMobile/Modules/LoginScreen.axaml" value="MileageTrackerMobile.Desktop/MileageTrackerMobile.Desktop.csproj" />
+        <entry key="MileageTrackerMobile/Modules/LogsList.axaml" value="MileageTrackerMobile.Desktop/MileageTrackerMobile.Desktop.csproj" />
+        <entry key="MileageTrackerMobile/Modules/SessionIDError.axaml" value="MileageTrackerMobile.Desktop/MileageTrackerMobile.Desktop.csproj" />
+        <entry key="MileageTrackerMobile/Modules/SettingsButton.axaml" value="MileageTrackerMobile.Desktop/MileageTrackerMobile.Desktop.csproj" />
+        <entry key="MileageTrackerMobile/Modules/UserIdDisplay.axaml" value="MileageTrackerMobile.Desktop/MileageTrackerMobile.Desktop.csproj" />
         <entry key="MileageTrackerMobile/Views/MainView.axaml" value="MileageTrackerMobile.Desktop/MileageTrackerMobile.Desktop.csproj" />
         <entry key="MileageTrackerMobile/Views/MainWindow.axaml" value="MileageTrackerMobile.Desktop/MileageTrackerMobile.Desktop.csproj" />
       </map>

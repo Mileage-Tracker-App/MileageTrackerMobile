@@ -1,0 +1,28 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:MileageTrackerMobile.ViewModels"
+             xmlns:local="clr-namespace:MileageTrackerMobile.Modules"
+             mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="700"
+             x:Class="MileageTrackerMobile.Modules.LoginScreen"
+             x:DataType="viewModels:MainViewModel">
+    
+    <UserControl.DataContext>
+                <viewModels:MainViewModel/>
+            </UserControl.DataContext>
+    
+    <StackPanel DockPanel.Dock="Top" 
+                VerticalAlignment="Top" 
+                HorizontalAlignment="Stretch"
+                IsVisible="{Binding LoginScreenVisible}">
+                            
+        <TextBlock HorizontalAlignment="Center" FontSize="30" Margin="0 10 0 0">Log In/Register</TextBlock>
+                            
+        <TextBox VerticalAlignment="Top" Margin="0 30 0 0" HorizontalAlignment="Center" Text="{Binding LoginInput}"></TextBox>
+        <Button VerticalAlignment="Top" Margin="0 5 0 15" HorizontalAlignment="Center" Click="Login_OnClick">Log In</Button>
+                            
+        <Button VerticalAlignment="Top" Margin="0" HorizontalAlignment="Center" Click="SignUp_OnClick">Register</Button>
+                            
+    </StackPanel>
+</UserControl>

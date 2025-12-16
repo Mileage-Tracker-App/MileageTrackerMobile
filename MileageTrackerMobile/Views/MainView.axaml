@@ -3,6 +3,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="using:MileageTrackerMobile.ViewModels"
+             xmlns:modules="clr-namespace:MileageTrackerMobile.Modules"
              mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="800"
              x:Class="MileageTrackerMobile.Views.MainView"
              x:DataType="vm:MainViewModel">
@@ -39,6 +40,8 @@
                            HorizontalAlignment="Stretch">
                     <DockPanel HorizontalAlignment="Stretch" 
                               VerticalAlignment="Stretch">
+                        
+                        <!-- Header TextBlock -->
                         <TextBlock DockPanel.Dock="Top" HorizontalAlignment="Center" 
                                    FontFamily="{DynamicResource AkkoProBold}" 
                                    FontSize="35">
@@ -46,135 +49,16 @@
                         </TextBlock>
                         <Border DockPanel.Dock="Top" VerticalAlignment="Top" Margin="0 0 0 0" Background="#80F8F8F8" Height="2" HorizontalAlignment="Stretch"></Border>
                         
-                        <StackPanel DockPanel.Dock="Top" 
-                                    VerticalAlignment="Top" 
-                                    HorizontalAlignment="Stretch"
-                                    IsVisible="{Binding HomepageVisible}">
-                            
-                            <TextBlock HorizontalAlignment="Center" FontSize="30" Margin="0 10 0 0">Log In/Register</TextBlock>
-                            
-                            <TextBox VerticalAlignment="Top" Margin="0 30 0 0" HorizontalAlignment="Center" Text="{Binding LoginInput}"></TextBox>
-                            <Button VerticalAlignment="Top" Margin="0 5 0 15" HorizontalAlignment="Center" Click="Login_OnClick">Log In</Button>
-                            
-                            <Button VerticalAlignment="Top" Margin="0" HorizontalAlignment="Center" Click="SignUp_OnClick">Register</Button>
-                            
-                        </StackPanel>
-
-                        <Border CornerRadius="40" 
-                                Margin="15"
-                                DockPanel.Dock="Top"
-                                Background="{DynamicResource GreyGradientBrush}"
-                                BorderBrush="{DynamicResource GreyBorderGradientBrush}"
-                                VerticalAlignment="Center"
-                                HorizontalAlignment="Center"
-                                Width="210"
-                                BorderThickness="2.5"
-                                ClipToBounds="True"
-                                IsVisible="{Binding SessionIdDisplayVisible}">
-                            <Border.Effect>
-                                <DropShadowEffect BlurRadius="40"
-                                                  Color="#30000000" 
-                                                  OffsetX="0" 
-                                                  OffsetY="10"/>
-                            </Border.Effect>
-                            <Grid>
-                                <Border CornerRadius="39"
-                                                Margin="1"
-                                                BorderBrush="{DynamicResource InnerGlowBrush}"
-                                                BorderThickness="1"
-                                                IsHitTestVisible="False"/>
-                                <StackPanel Margin="15" 
-                                            Orientation="Vertical" 
-                                            VerticalAlignment="Stretch" 
-                                            HorizontalAlignment="Stretch">
-                                    
-                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Classes="bold" >Your User ID:</TextBlock>
-                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding SessionID}"></TextBlock>
-                                    
-                                    <Border CornerRadius="40" 
-                                            Margin="15"
-                                            Background="{DynamicResource GreyGradientBrush}"
-                                            BorderBrush="{DynamicResource GreyBorderGradientBrush}"
-                                            VerticalAlignment="Center"
-                                            HorizontalAlignment="Center"
-                                            BorderThickness="2.5"
-                                            ClipToBounds="True">
-                                        <Border.Effect>
-                                            <DropShadowEffect BlurRadius="40"
-                                                              Color="#30000000" 
-                                                              OffsetX="0" 
-                                                              OffsetY="10"/>
-                                        </Border.Effect>
-                                        <Grid>
-                                            <Border CornerRadius="39"
-                                                    Margin="1"
-                                                    BorderBrush="{DynamicResource InnerGlowBrush}"
-                                                    BorderThickness="1"
-                                                    IsHitTestVisible="False"/>
-                                            <StackPanel Margin="15" 
-                                                        Orientation="Vertical" 
-                                                        VerticalAlignment="Stretch" 
-                                                        HorizontalAlignment="Stretch">
-                                                
-                                                <Button CornerRadius="400" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40" Click="Continue_OnClick">
-                                                    <Label FontSize="20" Margin="0">Continue</Label>
-                                                </Button>
-                                                
-                                                
-                                            </StackPanel>
-                                            <Border Background="{DynamicResource GlassReflectionBrush}"
-                                                    VerticalAlignment="Top"
-                                                    Opacity="0.6"
-                                                    IsHitTestVisible="False"/>
-                                        </Grid>
-                                    </Border>
-                                    
-                                    
-                                </StackPanel>
-                                <Border Background="{DynamicResource GlassReflectionBrush}"
-                                        VerticalAlignment="Top"
-                                        Opacity="0.6"
-                                        IsHitTestVisible="False"/>
-                            </Grid>
-                        </Border>
+                        <!-- Modules -->
+                        <modules:LoginScreen Background="Transparent" IsVisible="{Binding LoginScreenVisible}" DockPanel.Dock="Top" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></modules:LoginScreen>
                         
-                        <Border CornerRadius="40" 
-                                Margin="15"
-                                DockPanel.Dock="Top"
-                                Background="{DynamicResource GreyGradientBrush}"
-                                BorderBrush="{DynamicResource GreyBorderGradientBrush}"
-                                VerticalAlignment="Center"
-                                HorizontalAlignment="Center"
-                                BorderThickness="2.5"
-                                ClipToBounds="True"
-                                IsVisible="{Binding SessionNotExistVisible}">
-                            <Border.Effect>
-                                <DropShadowEffect BlurRadius="40"
-                                                  Color="#30000000" 
-                                                  OffsetX="0" 
-                                                  OffsetY="10"/>
-                            </Border.Effect>
-                            <Grid>
-                                <Border CornerRadius="39"
-                                                Margin="1"
-                                                BorderBrush="{DynamicResource InnerGlowBrush}"
-                                                BorderThickness="1"
-                                                IsHitTestVisible="False"/>
-                                <StackPanel Margin="15" 
-                                            Orientation="Vertical" 
-                                            VerticalAlignment="Stretch" 
-                                            HorizontalAlignment="Stretch">
-                                    
-                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Classes="bold" >User ID does not exist!</TextBlock>
-                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Try a different one or create a new one.</TextBlock>
-                                    
-                                </StackPanel>
-                                <Border Background="{DynamicResource GlassReflectionBrush}"
-                                        VerticalAlignment="Top"
-                                        Opacity="0.6"
-                                        IsHitTestVisible="False"/>
-                            </Grid>
-                        </Border>
+                        <modules:SettingsButton Background="Transparent" IsVisible="{Binding SettingsButtonVisible}" DockPanel.Dock="Right" HorizontalAlignment="Right" VerticalAlignment="Center"></modules:SettingsButton>
+                        
+                        <modules:LogsList Background="Transparent" IsVisible="{Binding LogsPageVisible}" DockPanel.Dock="Top" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></modules:LogsList>
+
+                        <modules:UserIdDisplay Background="Transparent" IsVisible="{Binding SessionIdDisplayVisible}" DockPanel.Dock="Top" HorizontalAlignment="Center" VerticalAlignment="Center"></modules:UserIdDisplay>
+                        
+                        <modules:SessionIDError Background="Transparent" IsVisible="{Binding SessionNotExistVisible}" DockPanel.Dock="Top" HorizontalAlignment="Center" VerticalAlignment="Center"></modules:SessionIDError>
                         
                     </DockPanel>
                 </StackPanel>

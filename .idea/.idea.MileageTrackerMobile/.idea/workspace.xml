@@ -11,18 +11,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6ff2ad-c8ab-40f7-bae3-1e7b47a8080b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Modules/LoginScreen.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Modules/LoginScreen.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Modules/LogsList.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Modules/LogsList.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Modules/SessionIDError.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Modules/SessionIDError.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Modules/SettingsButton.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Modules/SettingsButton.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Modules/UserIdDisplay.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MileageTrackerMobile/Modules/UserIdDisplay.axaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MileageTrackerMobile/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/ViewModels/MainViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/ViewModels/MainViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MileageTrackerMobile/Views/MainView.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DpaMonitoringSettings">
-    <option name="firstShow" value="false" />
-  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="16" />
+    <option name="cachedIndexableFilesCount" value="1" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -41,9 +51,16 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/APIController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/arigr/RiderProjects/MileageTrackerMobile/MileageTrackerMobile/Views/MainView.axaml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/arigr/RiderProjects/MileageTrackerMobile/MileageTrackerMobile/Views/MainView.axaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/Modules/LoginScreen.axaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/Modules/LoginScreen.axaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/Modules/LogsList.axaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/Modules/LogsList.axaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/Modules/SessionIDError.axaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/Modules/SessionIDError.axaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/Modules/SettingsButton.axaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/Modules/SettingsButton.axaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/Modules/UserIdDisplay.axaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MileageTrackerMobile/Modules/UserIdDisplay.axaml.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -56,7 +73,7 @@
 }</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="AISelfReview" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -66,30 +83,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.MileageTrackerMobile.Desktop.executor": "Run",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Android.MileageTrackerMobile.Android.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.MileageTrackerMobile.Desktop.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.MileageTrackerMobile.Desktop">
     <configuration name="MileageTrackerMobile.Desktop" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -108,6 +124,22 @@
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
       <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="MileageTrackerMobile.Browser" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MileageTrackerMobile.Browser/MileageTrackerMobile.Browser.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net9.0-browser" />
+      <option name="LAUNCH_PROFILE_NAME" value="MileageTrackerMobile.Browser" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -138,78 +170,9 @@
       <workItem from="1762882724080" duration="33000" />
       <workItem from="1764984864861" duration="2780000" />
       <workItem from="1764988679570" duration="2783000" />
-      <workItem from="1765139957476" duration="273000" />
-      <workItem from="1765140272381" duration="5000" />
-      <workItem from="1765675505253" duration="9266000" />
-      <workItem from="1765763938064" duration="3401000" />
-      <workItem from="1765767374021" duration="44000" />
-      <workItem from="1765767431906" duration="11804000" />
+      <workItem from="1765827745825" duration="3907000" />
+      <workItem from="1765844913850" duration="4406000" />
     </task>
-    <task id="LOCAL-00001" summary="Remove browser platform support and add session-based models to core project">
-      <option name="closed" value="true" />
-      <created>1765701667969</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1765701667969</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Implement session-based login and error handling in MainView">
-      <option name="closed" value="true" />
-      <created>1765768067687</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1765768067687</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add user registration flow and session display in MainView">
-      <option name="closed" value="true" />
-      <created>1765772388462</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1765772388462</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Add comprehensive README.md for project overview and setup instructions">
-      <option name="closed" value="true" />
-      <created>1765773212223</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1765773212223</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Add &quot;Continue&quot; button to MainView, update UI behaviors, and replace app icon">
-      <option name="closed" value="true" />
-      <created>1765774973889</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1765774973889</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Improve session handling logic in MainView and update project configuration">
-      <option name="closed" value="true" />
-      <created>1765776845002</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1765776845002</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Improve session handling logic in MainView and update project configuration">
-      <option name="closed" value="true" />
-      <created>1765776873347</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1765776873347</updated>
-    </task>
-    <task id="LOCAL-00008" summary="fix the broken thingies">
-      <option name="closed" value="true" />
-      <created>1765776886814</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1765776886814</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,16 +182,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Remove browser platform support and add session-based models to core project" />
-    <MESSAGE value="Implement session-based login and error handling in MainView" />
-    <MESSAGE value="Add user registration flow and session display in MainView" />
-    <MESSAGE value="Add comprehensive README.md for project overview and setup instructions" />
-    <MESSAGE value="Update UI components and improve session handling logic&#10;&#10;- Added &quot;Continue&quot; button functionality to navigate to the logs page.&#10;- Enhanced registration flow to display the session ID and log page seamlessly.&#10;- Updated MainWindow design properties (dimension, title, icon).&#10;- Introduced a new asset (MileageTracker.ico) to replace the default icon.&#10;- Made changes to support a more polished and dynamic user experience." />
-    <MESSAGE value="Improve MainView with session handling, continue button, and refined UI adjustments" />
-    <MESSAGE value="Add &quot;Continue&quot; button to MainView, update UI behaviors, and replace app icon" />
-    <MESSAGE value="Improve session handling logic in MainView and update project configuration" />
-    <MESSAGE value="fix the broken thingies" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix the broken thingies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

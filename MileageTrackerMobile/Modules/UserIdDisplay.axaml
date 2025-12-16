@@ -1,0 +1,90 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:MileageTrackerMobile.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="MileageTrackerMobile.Modules.UserIdDisplay"
+             x:DataType="viewModels:MainViewModel">
+    <Border CornerRadius="40" 
+                    Margin="15"
+                    DockPanel.Dock="Top"
+                    Background="{DynamicResource GreyGradientBrush}"
+                    BorderBrush="{DynamicResource GreyBorderGradientBrush}"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Width="210"
+                    BorderThickness="2.5"
+                    ClipToBounds="True"
+                    IsVisible="{Binding SessionIdDisplayVisible}">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="40"
+            Color="#30000000" 
+            OffsetX="0" 
+            OffsetY="10"/>
+        </Border.Effect>
+        <Grid>
+            <Border CornerRadius="39"
+                    Margin="1"
+                    BorderBrush="{DynamicResource InnerGlowBrush}"
+                    BorderThickness="1"
+                    IsHitTestVisible="False"/>
+            
+            <StackPanel Margin="15" 
+                        Orientation="Vertical" 
+                        VerticalAlignment="Stretch" 
+                        HorizontalAlignment="Stretch">
+                                    
+                
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Classes="bold" >Your User ID:</TextBlock>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding SessionID}"></TextBlock>
+                
+                <Border CornerRadius="40" 
+                        Margin="15"
+                        Background="{DynamicResource GreyGradientBrush}"
+                        BorderBrush="{DynamicResource GreyBorderGradientBrush}"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        BorderThickness="2.5"
+                        ClipToBounds="True">
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="40"
+                                          Color="#30000000" 
+                                          OffsetX="0" 
+                                          OffsetY="10"/>
+                        
+                    </Border.Effect>
+                    
+                    <Grid>
+                        <Border CornerRadius="39"
+                                Margin="1"
+                                BorderBrush="{DynamicResource InnerGlowBrush}"
+                                BorderThickness="1"
+                                IsHitTestVisible="False"/>
+                        
+                        <StackPanel Margin="15" 
+                                    Orientation="Vertical" 
+                                    VerticalAlignment="Stretch" 
+                                    HorizontalAlignment="Stretch">
+                                                
+                            
+                            <Button CornerRadius="400" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40" Click="Continue_OnClick">
+                                <Label FontSize="20" Margin="0">Continue</Label>
+                            </Button>
+                                                
+                                                
+                        </StackPanel>
+                        <Border Background="{DynamicResource GlassReflectionBrush}"
+                                VerticalAlignment="Top"
+                                Opacity="0.6"
+                                IsHitTestVisible="False"/>
+                    </Grid>
+                </Border>
+                
+            </StackPanel><Border Background="{DynamicResource GlassReflectionBrush}"
+                    VerticalAlignment="Top"
+                    Opacity="0.6"
+                    IsHitTestVisible="False"/>
+        </Grid>
+    </Border>
+</UserControl>
