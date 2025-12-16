@@ -22,7 +22,7 @@ public partial class LogsList : UserControl
             
         if (result.Success && result.Value != null)
         {
-            LogsList.ItemsSource = result.Value.Logs;
+            LogsListitem.ItemsSource = result.Value.Logs;
             vm.LogsList = result.Value.Logs;
         }
     }

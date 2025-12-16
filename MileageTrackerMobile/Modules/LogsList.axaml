@@ -13,7 +13,7 @@
                             
         <TextBlock Margin="20 0 0 25" Classes="bold" FontSize="20">Your Logs:</TextBlock>
                             
-        <ListBox x:Name="LogsList" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="20 0 20 0" Height="400">
+        <ListBox x:Name="LogsListitem" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="20 0 20 0" Height="400">
             <ListBox.Template>
                 
             </ListBox.Template>
